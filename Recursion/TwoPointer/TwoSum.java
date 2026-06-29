@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class TwoSum{
   public static void main(String[] args) {
-    int[]arr={6,7,9,2,15};
+    int[]arr={6,0,9,2,15,7};
     int target=9;
     arr=twosum(arr,target);
      System.out.println(Arrays.toString(arr));
